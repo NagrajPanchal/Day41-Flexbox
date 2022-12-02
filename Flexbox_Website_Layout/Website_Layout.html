@@ -30,20 +30,32 @@
     background: beige;
     order: 2;
   }
+
   header, footer {
-    background: yellowgreen;
-    height: 20vh;
+    background: rgb(224, 250, 173);
+    height: 10vh;
+    color:blue;
+    /* text-decoration-color: aqua; */
   }
-  header, footer, article, nav, aside {
-    padding: 1em;
+  header, footer, article, nav, aside, new {
+    padding: 2em;
+    text-align: center;
+    border: 1em;
+  }
+  #apple {
+flex-direction: row;
+background: rgb(233, 172, 202);
+color:red;
   }
 </style>
 <body>
   <header>Header</header>
+  <new id="apple">Apple</new>
   <div id="main">
     <article>Article</article>
     <nav>Nav</nav>
     <aside>Aside</aside>
+
   </div>
   <footer>Footer</footer>
 </body>
